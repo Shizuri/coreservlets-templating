@@ -1,0 +1,19 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+				xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+				template="/templates/exercise2-template.xhtml">
+<ui:define name="title">
+	Contact Us
+</ui:define>
+<ui:define name="main title">
+	<h1 class="title">Contact Us</h1>
+</ui:define>
+<ui:define name="body">
+	<ui:include src="/snippets/exercise4-warning.xhtml">Default warning</ui:include>
+	<h2>This is the Contact page.</h2>
+	Don't contact us, just don't we won't contact you either. OK?
+<!-- 	<img src="resources/images/logo1.jpg" width="20%" height="20%" style="float:right;" alt="logo"/>  -->
+</ui:define>
+<ui:define name="footer">
+	<ui:include src="/snippets/exercise2-footer2.xhtml">Default footer</ui:include>
+</ui:define>
+</ui:composition>

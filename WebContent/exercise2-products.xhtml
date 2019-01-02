@@ -1,0 +1,23 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+				xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+				xmlns:h="http://xmlns.jcp.org/jsf/html"
+				template="/templates/exercise2-template.xhtml">
+<ui:define name="title">
+	Products
+</ui:define>
+<ui:define name="main title">
+	<h1 class="title">Products</h1>
+</ui:define>
+<ui:define name="body">
+	<h2>This is the Products page.</h2>
+	<h2>We have fancy products:</h2>
+	<ui:include src="/snippets/exercise4-warning.xhtml">Default warning</ui:include>
+	1) Fancy product<br/>
+	2) Super Fancy product<br/>
+	3) Fanciest of products
+<!-- 	<img src="resources/images/logo1.jpg" width="20%" height="20%" style="float:right;" alt="logo"/>  -->
+</ui:define>
+<ui:define name="footer">
+	<ui:include src="/snippets/exercise2-footer.xhtml">Default footer</ui:include>
+</ui:define>
+</ui:composition>

@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+				xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+				xmlns:h="http://xmlns.jcp.org/jsf/html"
+				template="/templates/exercise2-template.xhtml">
+<ui:define name="title">
+	Services
+</ui:define>
+<ui:define name="main title">
+	<h1 class="title">Services</h1>
+</ui:define>
+<ui:define name="body">
+	<h2>This is the Services page.</h2>
+	<h2>We have great products:</h2>
+	We do things <b>and</b> stuff. Who doesn't like things and stuff?!
+	<ui:include src="/snippets/exercise4-warning.xhtml">Default warning</ui:include>
+<!-- 	<h:graphicImage library="images" name="logo1.jpg" width="20%" height="20%" style="float:right;" alt="logo"/> -->
+</ui:define>
+<ui:define name="footer">
+	<ui:include src="/snippets/exercise2-footer.xhtml">Default footer</ui:include>
+</ui:define>
+</ui:composition>
